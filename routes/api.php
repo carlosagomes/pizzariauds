@@ -16,3 +16,14 @@ use Illuminate\Http\Request;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+
+Route::get('/sabores', 'PedidoController@getSabores');
+
+Route::get('/tamanhos', 'PedidoController@getTamanhos');
+
+Route::get('/personalizacao', 'PedidoController@getPersonalizacao');
+
+Route::get('/pedido/{id}', 'PedidoController@getPedidoMontadoPorId');
+
+Route::any('/pedido', 'PedidoController@montarPedido');
