@@ -1,4 +1,4 @@
-<p>Lista de Métodos para consumo encontrados no arquivop api.php</p>
+<p>Lista de Métodos para consumo encontrados no arquivo api.php</p>
 <ul>
     <li> GET  api/sabores -> retorna todos os sabores disponíveis </li>
     <li> GET  api/tamanhos -> retorna todos os tamanhos disponíveis </li>
